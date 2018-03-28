@@ -1,13 +1,16 @@
 // write your code below!
-function happyHolidays(string){
-  return"happyHolidays!";
+function happyHolidays() {
+  return "Happy holidays!";
 }
-function happyHolidayTo(string){
-  return 'Happy Holidays, ${name}!'
+
+function happyHolidaysTo(name) {
+  return `Happy holidays, ${name}!`;
 }
-function happyHolidayTo(string){
-  return 'Happy ${holiday}, ${name}!'
+
+function happyHolidayTo(holiday, name) {
+  return `Happy ${holiday}, ${name}!`;
 }
-function happyHolidayCountdown(string){
-  return "It's ${days} days until ${holiday}!"
+
+function holidayCountdown(holiday, number) {
+  return `It\'s ${number} days until ${holiday}!`;
 }
